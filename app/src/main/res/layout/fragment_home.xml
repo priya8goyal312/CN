@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".HomeFragment">
+
+    <androidx.appcompat.widget.Toolbar
+        android:theme="@style/ThemeOverlay.AppCompat.Dark"
+        android:layout_width="match_parent"
+        android:id="@+id/homeToolBar"
+        android:background="@color/colorAccent"
+        android:layout_height="?attr/actionBarSize"/>
+
+    <com.denzcoskun.imageslider.ImageSlider
+        android:id="@+id/slider"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:padding="10dp"
+        app:auto_cycle="true"
+        app:corner_radius="50"
+        app:delay="2"
+        app:period="5000" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="10dp"
+        android:textStyle="bold"
+        android:text="Books for improving skills "
+        android:textSize="15sp"
+        android:textColor="#000"
+        android:layout_height="wrap_content"/>
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/rv_home"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="60dp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+</LinearLayout>

@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="300dp"
+    android:background="@drawable/score_popup"
+    android:layout_gravity="center"
+    android:layout_height="400dp">
+
+    <pl.droidsonroids.gif.GifImageView
+        android:id="@+id/gif"
+        android:layout_width="wrap_content"
+        android:layout_height="150dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:scaleType="fitXY"
+        android:src="@drawable/cel" />
+
+    <TextView
+        android:id="@+id/perText"
+        android:layout_below="@+id/gif"
+        android:layout_width="match_parent"
+        android:layout_marginTop="10dp"
+        android:textAlignment="center"
+        android:text="70%"
+        android:textStyle="bold"
+        android:textSize="20sp"
+        android:textColor="#000"
+        android:layout_height="wrap_content"/>
+
+    <TextView
+        android:id="@+id/feedBackText"
+        android:layout_below="@+id/perText"
+        android:layout_width="match_parent"
+        android:layout_marginTop="10dp"
+        android:textAlignment="center"
+        android:fontFamily="@font/alike_angular"
+        android:text="Very good "
+        android:textStyle="bold"
+        android:textSize="20sp"
+        android:textColor="#000"
+        android:layout_height="wrap_content"/>
+
+    <TextView
+        android:id="@+id/sayText"
+        android:fontFamily="@font/roboto"
+        android:layout_below="@+id/feedBackText"
+        android:layout_width="match_parent"
+        android:layout_marginTop="10dp"
+        android:textAlignment="center"
+        android:text="You are bright student plz go and and read books"
+        android:textStyle="bold"
+        android:textSize="14sp"
+        android:textColor="@color/colorPrimaryDark"
+        android:layout_height="wrap_content"/>
+
+    <FrameLayout
+        android:id="@+id/frameLayout"
+        android:padding="20dp"
+        android:layout_below="@+id/sayText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+    <Button
+        android:id="@+id/okBtn"
+        android:layout_width="wrap_content"
+        android:background="@drawable/custom_btn"
+        android:backgroundTint="#070C6C"
+        android:layout_gravity="center"
+        android:textColor="#fff"
+        android:layout_height="40dp"
+        android:text="Okay" />
+
+    </FrameLayout>
+
+
+
+</RelativeLayout>

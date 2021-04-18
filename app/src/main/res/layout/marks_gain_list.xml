@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:padding="15dp"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_margin="5dp"
+    android:orientation="horizontal"
+    android:weightSum="3"
+    android:background="@drawable/custom_category_background"
+    android:layout_height="wrap_content">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:orientation="vertical"
+        android:layout_weight="1"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_marginStart="10dp"
+            android:layout_marginEnd="10dp"
+            android:text="Subject"
+            android:layout_weight="1"
+            android:textColor="#000"
+            android:textStyle="bold"
+            android:padding="8dp"
+            android:gravity="center_vertical"
+            android:textSize="17dp"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="10dp" />
+
+        <TextView
+            android:id="@+id/subName"
+            android:layout_width="wrap_content"
+            android:layout_marginStart="10dp"
+            android:layout_marginEnd="10dp"
+            android:text="Title"
+            android:layout_weight="1"
+            android:textColor="#000"
+            android:textStyle="bold"
+            android:padding="8dp"
+            android:gravity="center_vertical"
+            android:textSize="17dp"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="10dp" />
+
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:orientation="vertical"
+        android:layout_weight="1"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_marginStart="10dp"
+            android:layout_marginEnd="10dp"
+            android:text="Set No."
+            android:layout_weight="1"
+            android:textColor="#000"
+            android:textStyle="bold"
+            android:padding="8dp"
+            android:gravity="center_vertical"
+            android:textSize="17dp"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="10dp" />
+
+        <TextView
+            android:id="@+id/setName"
+            android:layout_width="wrap_content"
+            android:layout_marginStart="10dp"
+            android:layout_marginEnd="10dp"
+            android:text="Title"
+            android:layout_weight="1"
+            android:textColor="#000"
+            android:textStyle="bold"
+            android:padding="8dp"
+            android:gravity="center_vertical"
+            android:textSize="17dp"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="10dp" />
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:orientation="vertical"
+        android:layout_weight="1"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_marginStart="10dp"
+            android:layout_marginEnd="10dp"
+            android:text="Score"
+            android:layout_weight="1"
+            android:textColor="#000"
+            android:textStyle="bold"
+            android:padding="8dp"
+            android:gravity="center_vertical"
+            android:textSize="17dp"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="10dp" />
+
+        <TextView
+            android:id="@+id/perStudent"
+            android:layout_width="wrap_content"
+            android:layout_marginStart="10dp"
+            android:layout_marginEnd="10dp"
+            android:text="Title"
+            android:layout_weight="1"
+            android:textColor="#000"
+            android:textStyle="bold"
+            android:padding="8dp"
+            android:gravity="center_vertical"
+            android:textSize="17dp"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="10dp" />
+
+
+    </LinearLayout>
+
+
+
+
+
+</LinearLayout>

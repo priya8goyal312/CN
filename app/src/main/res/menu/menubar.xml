@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    app:cnb_unselectedColor="#fff"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/userHome"
+        app:cnb_textColor="#fff"
+        app:cnb_backgroundColor="#076C3A"
+        app:cnb_iconColor="#FFFFFF"
+        android:icon="@drawable/ic_home"
+        android:title="Home" />
+
+    <item
+        android:id="@+id/userFavQues"
+        app:cnb_textColor="#fff"
+        app:cnb_backgroundColor="#076C3A"
+        app:cnb_iconColor="#FFFFFF"
+        android:icon="@drawable/like"
+        android:title="Favorite" />
+
+<!--    <item-->
+<!--        android:id="@+id/myScore"-->
+<!--        app:cnb_textColor="#fff"-->
+<!--        app:cnb_backgroundColor="#076C3A"-->
+<!--        app:cnb_iconColor="#FFFFFF"-->
+<!--        android:icon="@drawable/ic_checklist"-->
+<!--        android:title="My Scores" />-->
+
+    <item
+        android:id="@+id/counseling"
+        android:iconTint="#fff"
+        app:cnb_textColor="#fff"
+        app:cnb_backgroundColor="#076C3A"
+        app:cnb_iconColor="#fff"
+        android:icon="@drawable/ic_counseling"
+        android:title="Counseling Now" />
+
+    <item
+        android:id="@+id/profile"
+        android:iconTint="#fff"
+        app:cnb_textColor="#fff"
+        app:cnb_backgroundColor="#076C3A"
+        app:cnb_iconColor="#fff"
+        android:icon="@drawable/ic_user"
+        android:title="Profile" />
+</menu>
